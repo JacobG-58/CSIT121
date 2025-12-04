@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Used</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ink Markup Language (InkML)</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">What Is It</a></li>
+            <li><a href="importance.html">Why Its Important</a></li>
+            <li><a href="usage.html">How Its Used</a></li>
+            <li><a href="sources.html">Sources</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>How InkML Is Used</h2>
+
+    <p>InkML is widely used in digital handwriting applications that rely on stylus input. 
+    Note-taking programs, sketching apps, and digital whiteboards use InkML to store and process user-generated strokes. 
+    By capturing detailed stroke data, these applications can replay handwriting, adjust its appearance, or convert it to text. 
+    InkML makes it easier for software to understand the user’s writing style, which can improve accuracy in handwriting recognition. 
+    For creative tools, it also helps preserve the natural motion and feel of drawing.</p>
+    
+    <p>The standard is also frequently used in electronic signature systems. 
+    Banks, delivery companies, and legal services often rely on more than just the appearance of a signature; they also examine the way it was written. 
+    InkML’s ability to store pressure and timing data makes signatures more secure because it captures characteristics that are difficult to forge. 
+    This gives organizations a higher level of confidence when accepting digital signatures. 
+    By preserving the motion behind the signature, not just the shape, InkML enhances digital security.</p>
+    
+    <p>In addition to consumer applications, InkML is valuable in technical and academic environments. 
+    Educational tools may use InkML to capture handwritten math equations, diagrams, or annotations made during lessons. 
+    Researchers studying handwriting recognition also use InkML data to train and test algorithms. 
+    Design and modeling software can use InkML to capture precise stylus movements for more natural drawing experiences. 
+    Across all of these fields, InkML provides the detailed and structured ink data needed to support advanced digital writing systems.</p>
+
+    <h3>Example InkML Snippet</h3>
+    <pre><code>
+&lt;ink xmlns="http://www.w3.org/2003/InkML"&gt;
+  &lt;trace id="t1"&gt;
+    100 100, 120 130, 140 160, 160 190
+  &lt;/trace&gt;
+&lt;/ink&gt;
+    </code></pre>
+
+</main>
+
+</body>
+</html>
