@@ -1,0 +1,80 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-image: url("christmas-background-1911637_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: xx-large;
+}
+
+header {
+  background: #751414;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  margin-right: 40px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;  
+  gap: 20px;             
+}
+
+main {
+  flex: 3;
+  background: rgb(214, 202, 202);
+  padding: 20px;
+  font-size: xx-large;
+  border-radius: 30px;
+}
+
+aside {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: larger;
+  background-color: #70a757;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
